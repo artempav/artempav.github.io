@@ -1,0 +1,215 @@
+body{
+    background: url("img/fon-harry.jpg");
+    background-size: cover;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    height: 82px;
+    background: url("img/top.png");
+    display: flex;
+    justify-content: space-evenly;
+    font-family: sans-serif;
+}
+
+.header_section{
+    display: flex;
+    align-items: center;
+}
+
+.header_items {
+    padding: 10px 15px;
+    font-size: 20px;
+    margin-left: 5px;
+    transition: 0.5s;
+}
+
+.header_items:hover {
+    background: silver;
+    border: red 3px solid;
+}
+
+.logo {
+    font-size: 35px;
+    margin-right: 500px;
+    cursor: pointer;
+}
+
+li {
+    list-style-type: none;  
+}
+
+
+.logo::first-letter {
+    background-color: white;
+    padding: 2px;
+    border-radius: 5px;
+}
+
+
+.leftBlock {
+    float: left;
+    width: 200px;
+    border: rgb(214, 211, 211) 2px solid;
+}
+
+.menu{ 
+    display: flex;
+    justify-content: space-evenly;
+    font-family: sans-serif;
+}
+
+.content_leftBlock div:hover {
+    background: silver;
+}
+
+a {
+    color: rgb(60, 112, 112);
+    text-decoration: none;
+}
+
+.content__leftBlock li:hover {
+    background: silver;
+    border-radius: 5px;
+}
+
+
+.reclam_block1 {
+    width: 180px;
+    height: 250px;
+    background: url("img/reklama.jpg");
+    margin: 20px;
+}
+
+.reclam_block2 {
+    width: 180px;
+    height: 250px;
+    background: url("img/reklama2.jpg");
+    margin: 20px;
+}
+
+.reclam a {
+    margin: 20px;
+    margin-left: 40px;
+    color: black;
+
+}
+
+.content {
+    margin-left: 175px;
+    overflow: hidden;
+    width: 980px;
+    border: rgb(214, 211, 211) 2px solid;
+}
+
+.content__header {
+    font-size: 24px;
+    background:rgb(214, 211, 211);
+    color: rgb(21, 180, 180);
+}
+
+.content__left {
+    float: left;
+    width: 290px;
+}
+
+.harry {
+    background: url("img/harry.jpg");
+    width: 250px;
+    height: 320px;
+
+}
+
+.redact {
+    margin-top: 20px;
+}
+
+
+.friends {
+    margin-top: 20px;
+    font-size: 22px;
+    background: rgb(214, 211, 211);
+}
+
+.friends_st {
+    background: url("img/frends.jpg");
+    width: 290px;
+    height: 280px;
+}
+
+.content__right {
+    margin-left: 290px;
+}
+
+.head_Harry {
+    font-size: 24px;
+}
+
+.about_me {
+    color: black;
+    float: left;
+    width: 200px;
+}
+
+.about_me div {
+    margin-top: 10px;
+}
+
+.me{
+    display: flex;
+    justify-content: space-evenly;
+    font-family: sans-serif;  
+}
+
+.answer {
+    float: right;
+    margin-right: 200px;
+
+}
+
+.answer div {
+    margin: 10px;
+}
+
+.foto {
+    font-size: 20px;
+    background:rgb(214, 211, 211);
+    display: inline-block;
+    width: 100%;
+}
+
+.foto1 {
+    border: silver 2px solid;
+}
+
+
+.data{
+    color: black;
+    font-size: 18px;
+}
+
+.info {
+    font-size: 20px;
+    background:rgb(214, 211, 211);
+    display: inline-block;
+    width: 100%;
+    margin-top: 11px;
+}
+
+.rec {
+    color: black;
+    background: red;
+}
+
+.body {
+    font-size: 60px;
+    margin: 0 auto;
+}
+
+video {
+    width: 700px;
+}
